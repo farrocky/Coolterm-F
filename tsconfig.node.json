@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2023"],
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "outDir": "dist-electron",
+    "baseUrl": ".",
+    "allowJs": true
+  },
+  "include": [
+    "vite.config.ts",
+    "electron/**/*"
+  ]
+}
